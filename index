@@ -1,0 +1,43 @@
+<div class="dato-box">
+  <strong>Dato Histórico:</strong>
+  <p>
+    La Labelette de 1977 representa la transición de Vijosa hacia la modernidad industrial. 
+    Los principios de posicionamiento y repetibilidad que este equipo introdujo en nuestra planta 
+    son los mismos que, hoy en día, rigen nuestras líneas de producción de alta velocidad, 
+    reflejando un legado de calidad, precisión y confianza que se mantiene intacto.
+  </p>
+</div>
+
+<style>
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* 👈 clave */
+}
+
+.dato-box {
+  background-color: #cccccc;
+  border-left: 5px solid #2ea3f2;
+  border-radius: 10px;
+  padding: 12px;
+  color: #000;
+  font-family: Arial, sans-serif;
+
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* texto */
+.dato-box strong {
+  display: block;
+  font-size: 15px;
+  margin-bottom: 6px;
+}
+
+.dato-box p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.4;
+}
+</style>
